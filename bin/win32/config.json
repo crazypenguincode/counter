@@ -1,0 +1,139 @@
+{
+  "times": [
+    {
+      "target": {
+        "value": "2019-12-21 00:00:00",
+        "cn": "目标日期",
+        "en": "target time",
+        "rmk": "必须是 yyyy-MM-dd hh:mm:ss，如：2019-09-22 00:00:00"
+      },
+      "show_format": {
+        "value": "%d-%h:%m:%s",
+        "cn": "显示格式",
+        "en": "shoew format",
+        "rmk": "%d天%h小时%m分%s秒 来显示。1、'%d'表示天 '%h'表示小时'%m表示'分'%s'表示秒 2、可以设置不显示某一部分，通过调整'1'来实现，如只显示天时：%d%h；3、中间、前后可以插入任何内容；4、可以任意调整顺序 %h%m%s-%d"
+      },
+      "font_color": {
+        "R": {
+          "value": 255,
+          "cn": "颜色R色值",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        },
+        "G": {
+          "value": 255,
+          "cn": "颜色G色值",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        },
+        "B": {
+          "value": 255,
+          "cn": "颜色B色值",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        },
+        "A": {
+          "value": 0,
+          "cn": "颜色 alpha通道",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        }
+      },
+      "font_size": {
+        "value": 15,
+        "cn": "字体大小",
+        "en": "font size",
+        "rmk": "大小如果太大 超过总大小，则会部分不显示"
+      },
+      "visible": {
+        "value": true,
+        "cn": "字体大小",
+        "en": "font size",
+        "rmk": "true 显示，false 则不显示"
+      }
+    },
+    {
+      "target": {
+        "value": "2019-02-21 00:00:00",
+        "cn": "目标日期",
+        "en": "target time",
+        "rmk": "必须是 yyyy-MM-dd hh:mm:ss，如：2019-09-22 00:00:00"
+      },
+      "show_format": {
+        "value": "还有 %d-%h:%m:%s 我必胜",
+        "cn": "显示格式",
+        "en": "shoew format",
+        "rmk": "%d天%h小时%m分%s秒 来显示。1、'%d'表示天 '%h'表示小时'%m表示'分'%s'表示秒 2、可以设置不显示某一部分，通过调整'1'来实现，如只显示天时：%d%h；3、中间、前后可以插入任何内容；4、可以任意调整顺序 %h%m%s-%d"
+      },
+      "font_color": {
+        "R": {
+          "value": 255,
+          "cn": "颜色R色值",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        },
+        "G": {
+          "value": 255,
+          "cn": "颜色G色值",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        },
+        "B": {
+          "value": 0,
+          "cn": "颜色B色值",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        },
+        "A": {
+          "value": 0,
+          "cn": "颜色 alpha通道",
+          "en": "font color",
+          "rmk": "颜色的RGBA，最小为0，最大255 "
+        }
+      },
+      "font_size": {
+        "value": 15,
+        "cn": "字体大小",
+        "en": "font size",
+        "rmk": "大小如果太大 超过总大小，则会部分不显示"
+      },
+      "visible": {
+        "value": false,
+        "cn": "字体大小",
+        "en": "font size",
+        "rmk": "true 显示，false 则不显示"
+      }
+    }
+  ],
+  "window_size": {
+    "width": {
+      "value": 600,
+      "cn": "窗口宽",
+      "en": "window width",
+      "rmk": "窗口的宽"
+    },
+    "height": {
+      "value": 50,
+      "cn": "窗口高",
+      "en": "window height",
+      "rmk": "窗口的高"
+    }
+  },
+  "window_pos": {
+    "X": {
+      "value": -1,
+      "cn": "X",
+      "en": "window pos X",
+      "rmk": "想对左上角的坐标x，-1 表示使用默认位置"
+    },
+    "Y": {
+      "value": -1,
+      "cn": "X",
+      "en": "window pos Y",
+      "rmk": "想对左上角的坐标y，-1 表示使用默认位置"
+    }
+
+  }
+
+
+}
