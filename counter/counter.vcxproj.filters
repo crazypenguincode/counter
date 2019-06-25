@@ -36,7 +36,7 @@
     <ClCompile Include="Source\VSFloatingWidget.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="config.cpp">
+    <ClCompile Include="Source\config.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,7 +46,7 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h">
+    <ClInclude Include="Include\config.h">
       <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>

@@ -22,12 +22,12 @@
     <QtMoc Include="Include\VSFloatingWidget.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="config.cpp" />
+    <ClCompile Include="Source\config.cpp" />
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\VSFloatingWidget.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h" />
+    <ClInclude Include="Include\config.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
